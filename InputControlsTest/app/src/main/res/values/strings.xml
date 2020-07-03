@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">InputControlsTest</string>
+
+    <string-array name="districts">
+        <item>Select District</item>
+        <item>Lalitpur</item>
+        <item>Kathmandu</item>
+        <item>Bhaktapur</item>
+        <item>Kavre</item>
+        <item>Sarlahi</item>
+
+    </string-array>
+
+    <string-array name="Lalitpur_Mandals">
+
+        <item>Select Mandals</item>
+        <item>LP1</item>
+        <item>LP2</item>
+        <item>LP3</item>
+        <item>LP4</item>
+        <item>LP5</item>
+    </string-array>
+
+    <string-array name="Kathmandu_Mandals">
+        <item>Select Mandals</item>
+        <item>KT1</item>
+        <item>KT2</item>
+        <item>KT3</item>
+        <item>KT4</item>
+        <item>KT5</item>
+    </string-array>
+</resources>
