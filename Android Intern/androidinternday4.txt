@@ -1,0 +1,60 @@
+By using XML:
+
+<Button
+....
+
+android:onClick="methodname" />
+
+in Java:
+
+public void methodname(View v){
+
+}
+
+By using Java:
+
+Button b1;    //Either Local or Global
+
+onCreate(){
+
+b1.fingViewbyId(R.id.idname);
+
+b1.setOnClickListener(new View.OnClickListener()){
+onClick(){
+
+//Action
+
+}
+
+});
+}
+
+
+
+
+
+Toast- It is a class and used to display hint messsages to the user.
+
+syntax:
+
+Toast.makeText(context,messages,duration).show(); //.show() methods displays message to user.
+
+
+
+context-where to display message?
+
+
+context - if it is Activity 
+	-this
+	-classname.this
+	-getApplicationContext()
+
+	if it is Fragment
+	-getContext()
+	-getActivity()
+
+duration - Toast.LENGTH_LONG
+	   Toast.LENGTH_SHORT
+
+
+

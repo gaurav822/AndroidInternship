@@ -1,0 +1,72 @@
+Local Database:
+------------------
+
+which cannot be access by the other device
+it is only accessed within the device.
+
+Ex: Contact App
+In android two types of local databases:
+------------------------------------------
+
+1. By using SharedPreferences
+-----------------------------
+
+By Using sharedpreferences we can store small amount of data
+key/value
+name mobileno
+("key1","gaurav")
+("key2","12345678")
+
+2. By Using Sqlite Database
+
+Maintain data within tables.
+
+
+Server Database
+---------------------------
+
+Example: Whatsapp, Facebook, etc.
+
+-------------------------------------------
+
+
+
+
+
+
+
+
+ViewModel and Live Data:
+--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

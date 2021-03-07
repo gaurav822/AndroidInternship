@@ -1,0 +1,19 @@
+Create DataBase Databasename;
+
+create table tablename(id varchar(), name varchar());
+
+@Entity(tablename="FacultyData")
+
+Public class Faculty{
+	
+@PrimaryKey @NonNull;
+int id;
+
+
+@ColumnInfo(name="FacultyName")
+String Name;
+String Mailid;
+
+// setter and getter method.
+
+}

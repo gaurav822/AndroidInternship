@@ -1,0 +1,26 @@
+Intent: TO Navigate on Activity to Another.
+
+Activity - Activity
+
+Activity - Service
+
+Activity - Broadcast Receiver
+
+Activity - Content Provider.
+
+Two Types:
+
+1) Explicit :
+
+Activity - Activity within your app.
+
+Syntax:
+
+Intent i = new Intent(context,classname.class);
+startActivity(i);
+
+
+
+2) Implict Intent
+
+It is used to open one activity to another application.

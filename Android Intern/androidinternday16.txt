@@ -1,0 +1,45 @@
+AsyncTask:
+-----------
+
+
+we have a 5 methods in AsyncTask:
+-------------------------------------
+
+long running tasks(time taking tasks):
+----------------------------------------
+Network operation
+
+1.onPreExecute() --->
+To display message to the user
+ProgressDialog:
+----------------
+2 types:
+Spinner Style
+Horizontal Progress dialog
+
+2.doInBackground()-->time taking logic
+3.onPostExecute()-->What ever o/p returned in the doIn background method that o/p 
+will displayed with in your UI thread.
+
+
+4.onProgressUpdate()
+---------------------------
+
+
+
+5.publishProgress()
+
+
+publish and doinback methods are running in background whereas remaining 3 in UI.
+
+if you want to work with horizonal progress method remaining last 2 method also
+required in addition to 3.
+
+
+JSON - (JavaScript Object Notation):
+-------------------------------------
+
+JsonObject --> '{'
+JsonArray --->  '['
+
+

@@ -1,0 +1,39 @@
+Implicit Intent:
+
+Asks System to find an activity class with a registered handler that can handle this request.
+
+For example:
+
+eg1:Share option ---> opens all application (App Chooser)
+
+eg2:If you want to change profile, it will ask to open camera. so,
+whatsapp is calling another camera application.
+
+Show a web page.
+
+Uri uri=Uri.parse("https://www.google.com");
+Intent it=new Intent(Intent.ACTION_VIEW,uri);
+startActivity(it);
+
+NOTES:
+URI ==>Uniform Resource Identifier  (By using name or location)
+URL ==>Uniform Resource Locator   
+URN ==>Uniform Resource name
+
+Dial a phone number:
+
+Uri uri= Uri.parse("tel:7382345820");
+Intent i=new Intent(Intent.ACTION_DIAL,uri);
+startActivity(i);
+
+For Maps:
+Uri mapuri = Uri.parse("geo:16.4649,80.5078");
+Intent mapsIntent =new Intent(Intent.ACTION_VIEW,mapuri);
+mapsIntent.setPackage("com.google.android.apps.maps");
+startActivity(mapsIntent);
+
+
+SHARING TEXTS:
+
+
+

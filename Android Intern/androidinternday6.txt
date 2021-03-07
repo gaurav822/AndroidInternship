@@ -1,0 +1,19 @@
+//This is for Sending the Data:
+
+Intent i=new Intent(this,SecondActivity.class);
+startActivity(i);
+i.putExtra(key,value); //For passing Strings only
+
+i.putInt(key,value);   // For passing int only
+
+i.putArrayExtra(key,value)  // for passing Array
+
+
+
+//For Getting the Data:
+
+String s = getIntent().getStringExtra();   //For getting String
+
+
+
+
